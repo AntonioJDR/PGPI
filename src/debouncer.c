@@ -1,6 +1,10 @@
 #include <stddef.h>
 #include "debouncer.h"
 
+void debouncer_reset(Debouncer *d){
+    if (d) d->state = 0;
+}
+
 void debouncer_init(Debouncer *d) {
     if (d == NULL) return;
     d->shift_reg = 0x0000;

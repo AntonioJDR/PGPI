@@ -14,6 +14,6 @@ typedef struct {
 
 void debouncer_init(Debouncer *d);
 void debouncer_update(Debouncer *d, uint8_t raw_input);
-
+void debouncer_reset(Debouncer *d)
 #endif // DEBOUNCER_H
 // fix provisional
