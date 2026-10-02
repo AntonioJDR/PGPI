@@ -6,6 +6,7 @@
 
 typedef struct {
     uint16_t shift_reg;
+    int prueba_develop;
     uint8_t state;
     uint8_t rising_edge;
     uint8_t falling_edge;
