@@ -1,7 +1,6 @@
 #ifndef DEBOUNCER_H
 #define DEBOUNCER_H
-//linea erronea
-// comentario temporal
+
 #include <stdint.h>
 #include <stdbool.h>
 
